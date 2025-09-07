@@ -36,7 +36,12 @@
     </ul>
 
     <h2>En sevdiğim futbol takımı</h2>
-    <img height="300" src="/03-Ders/gorseller/bjk-logo.jpg" alt="" />
+    <img
+      title="Beşiktaş Logo"
+      height="300"
+      src="/03-Ders/gorseller/bjk-logo.jpg"
+      alt=""
+    />
 
     <h2>İletişime Geç</h2>
     <form action="">
@@ -47,6 +52,8 @@
         id="isimsoyisim"
         placeholder="isim soyisim giriniz..."
         required
+        oninvalid="this.setCustomValidity('Uygun isim soyisim girmeniz gerekiyor!')"
+        title="İsim soyisim girilmesi gerekiyor"
       />
       <br />
       <label for="email">Email Adresi:</label>
