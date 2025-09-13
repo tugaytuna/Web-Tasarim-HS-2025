@@ -1,0 +1,50 @@
+body {
+  background-color: lightcyan;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+  font-size: 40px;
+}
+
+#baslikparag {
+  text-align: center;
+  color: #bde3c3;
+}
+
+.altbaslik {
+  text-align: center;
+  color: #637ab9;
+}
+
+p.altbaslik {
+  color: #0e4dfa;
+}
+
+.btnKaydet {
+  color: #0d06e7;
+  background-color: #5ddfcb;
+  width: 200px;
+  height: 75px;
+  border-radius: 14px;
+  border: 3px solid #2af3d5;
+  font-size: 16px;
+}
+
+img {
+  width: 500px;
+
+  /* border: 2px solid black; */
+
+  border-width: 4px;
+  border-style: solid;
+  border-color: rgb(29, 31, 168);
+}
+
+#gorsel1 {
+  width: 600px;
+
+  /* border-radius: 50px; */
+  border-radius: 50%;
+}
