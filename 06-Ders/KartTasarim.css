@@ -12,6 +12,18 @@ header h1 {
   /* Yukarıdan - Sağdan - Aşağıdan - Soldan Margin */
   /* margin: 50% 60px 50px 40px; */
 
+  /* Sadece Yukarıdan Margin */
+  /* margin-top: 50px; */
+
+  /* Sadece Aşağıdan Margin
+  margin-bottom: 50px; */
+
+  /* Sadece Soldan Margin
+  margin-left: 50px; */
+
+  /* Sadece Sağdan Margin
+  margin-right: 50px; */
+
   margin-bottom: 0px;
 }
 
@@ -34,7 +46,12 @@ header p {
   width: 200px;
   height: 200px;
   border-radius: 50%;
+
   border: 5px solid white;
+
+  /* border-width: 5px;
+  border-style: solid;
+  border-color: white; */
 }
 
 .card:hover {
