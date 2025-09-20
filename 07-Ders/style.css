@@ -1,0 +1,109 @@
+body {
+  background-color: #ffecc0;
+}
+
+header {
+  text-align: center;
+}
+
+.div1 {
+  background-color: red;
+
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.div11 {
+  display: flex;
+}
+
+.div1 h1 {
+  font-size: 50px;
+}
+
+.gorsel-baslik {
+  width: 50%;
+}
+
+.gorsel-baslik img {
+  width: 90%;
+  border-radius: 10px;
+}
+
+.div1 p {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.div2 {
+  background-color: blue;
+  /* Sadece etiketlere tasaırm kodu yazmak istediğimde kullanabilirim
+  display: contents; */
+  text-align: center;
+}
+
+.div2 h1 {
+  padding-top: 25px;
+}
+
+nav {
+  text-align: center;
+  margin: 50px;
+}
+
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  background-color: #556b2f;
+  color: #eff5d2;
+  padding: 10px 20px;
+  border: 4px solid #eff5d2;
+  border-radius: 12px;
+}
+
+nav a:hover {
+  background-color: #8fa31e;
+}
+
+.column1 {
+  display: flex;
+  column-gap: 20px;
+  padding: 20px 30px;
+}
+
+.column1 img {
+  width: 50%;
+  border: 4px solid black;
+  padding: 4px;
+}
+
+.column1 p {
+  width: 50%;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+form input {
+  width: 50%;
+}
+
+form textarea {
+  width: 50%;
+}
+
+form button {
+  width: 50%;
+  padding: 8px 0px;
+}
+
+.iletisim {
+  text-align: center;
+}
