@@ -1,0 +1,23 @@
+.hakkindaDiv {
+  margin: 30px;
+  /* background-color: rgb(162, 210, 252); */
+}
+
+.profilepic {
+  border-radius: 10px;
+  border: 1px solid black;
+  height: 500px;
+}
+
+.aciklama {
+  padding-top: 80px;
+  /* margin-top: 50px; */
+}
+
+.kartlar {
+  text-align: center;
+  margin: 30px;
+
+  display: flex;
+  gap: 20px;
+}
