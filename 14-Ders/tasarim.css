@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(255, 232, 232);
+}
+
+h1 {
+    text-align: center;
+}
+
+.ikinciP{
+    text-align: center;
+    color: red;
+}
+
+.birinci-btn{
+    margin: 20px;
+}
+
+.kart1{
+    margin: 20px;
+}
