@@ -18,3 +18,8 @@ h1 {
 .kart1 {
   margin: 20px;
 }
+
+#baslik {
+  color: red;
+  margin: 20px 0px;
+}

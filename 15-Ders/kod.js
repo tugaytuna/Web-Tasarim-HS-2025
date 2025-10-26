@@ -18,3 +18,13 @@ console.log(sayi1 + sayi2);
 console.log(sayi1 - sayi2);
 console.log(sayi1 * sayi2);
 console.log(sayi1 / sayi2);
+
+// console.log(document.getElementById("baslik").innerHTML);
+
+document.getElementById("baslik").innerHTML = "Javascript ile Değiştirildi!";
+
+document.getElementById("ikinci").innerHTML = isim + soyisim;
+
+document.getElementById("kartP").innerHTML = sayi1 * sayi2;
+
+document.getElementById("kartP").style = "color: red";
